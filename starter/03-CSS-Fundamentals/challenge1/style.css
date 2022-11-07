@@ -1,0 +1,65 @@
+/* *,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+} */
+
+body {
+    font-family: sans-serif;
+    line-height: 1.4;
+}
+
+h2,
+h3 {
+    text-transform: uppercase;
+}
+
+article {
+    border: 5px solid black;
+}
+
+article h2 {
+    text-align: center;
+    background-color: rgba(194, 194, 194, 0.1);
+}
+
+p>strong {
+    font-size: 22px;
+}
+
+.article-shipping {
+    text-transform: uppercase;
+    color: #929292;
+    font-size: small;
+}
+
+ul {
+    list-style-type: square;
+}
+
+.article-info:link,
+.article-info:visited {
+    color: black;
+}
+
+.article-info:hover,
+.article-info:active {
+    text-decoration: none;
+}
+
+button {
+    background-color: black;
+    color: #fff;
+    border: none;
+    padding: 5px 10px 5px 10px;
+    text-transform: uppercase;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #fff;
+    color: black;
+}
